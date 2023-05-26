@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <title>Lista</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+    <!--La etiqueta de Style es de CSS, sirve para darle un estilo a la tabla, debe ir dentro de la etiqueta
+    de head y no de body para indicar que se aplica a todo el documento-->
+</head>
+<body>
+    <h1>Cronología de eventos importantes</h1>
+        <p>A continuación se detallan algunos momentos importantes de la Biblia en orden cronológico</p>
+    <h2>Libro del Génesis</h2>
+    <!--ul es una lista no ordenada, sus elementos no vienen numerados-->
+    <ul>
+        <li>Creación del mundo y de la vida</li>
+        <li>El Jardín del Edén</li>
+        <li>La prohibición del árbol del conocimiento</li>
+        <li>La caída y el pecado original</li>
+        <li>Las consecuencias y el castigo</li>
+    </ul>
+        <p>Estos son solo algunos de los momentos importantes que se encuentran en los primeros <br>
+            cinco capítulos del libro del Génesis. Estos relatos sentaron las bases para la comprensión<br>
+            de la caída de la humanidad y la necesidad de redención y reconciliación con Dios.</p>
+    <h2>Personajes</h2>
+        <p>A continuación se detallan los personajes en orden de aparición:</p>
+    <!--ol es una lista ordenada, sus elementos vienen numerados-->
+        <ol>
+        <li>Dios</li>
+        <li>Adán</li>
+        <li>Eva</li>
+        <li value="7">Creación</li>
+    <!--La etiqueta value indica que valor tiene el elemento, en este caso es el 7-->
+         <ol>
+            <li style="list-style-type: lower-latin;">La Serpiente (Representación de Stanás)</li>
+            <li style="list-style-type: lower-latin;">Querubines</li>
+        </ol>
+    <!--Para agregar una sublista, se debe volver a ingresar ol o ul, puedes elegir el estilo de la numeración
+    en este caso elegí letras latinas de la más baja a la alta-->
+    </ol>
+    <!--La etiqueta table es para hacer tablas-->
+    <table>
+    <!--Las etiquetas thead y tbody son para indicarle a algunos navegadores que la cabecera no debe moverse
+    en caso de hacer scrll, lo único que se moverá será el contenido-->
+        <thead>
+            <tr>
+                <th>Persona</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <!--La etiqueta th es para la cabecera de la lista-->
+        <tbody>
+            <tr>
+                <td>Adán</td>
+                <td>Primer hombre creado por Dios</td>
+            </tr>
+            <tr>
+                <td>Eva</td>
+                <td>Primera mujer creada por Dios, esposa de Adán</td>
+            </tr>
+        <!--La etiqueta td es para las filas, cada una representa una columna y para agregar más filas debes
+        más tr-->
+        </tbody>
+    </table>
+</body>
+</html>
