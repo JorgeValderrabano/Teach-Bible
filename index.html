@@ -4,41 +4,54 @@
     <title>Home</title>
 </head>
 <body>
-   <h1>Aprende la Palabra</h1> 
+   <header>
+    <h1>Aprende la Palabra</h1> 
    <p><span style=color:purple>Aquí practico mi html, pero también estudio la palabra de Dios</span></p>
    <img src="Images/bible.avif" width="300" height="150" />
+    </header>
    <hr>
-   <h2>Libros de la Biblia</h2>
-   <h3>Pentateuco</h3>
-   <p><a target="_blank" href="C:/Users/jorge/Downloads/Workspaces/HTML/Teach-Bible/Genesis.html">Genesis</a></p>
-  <hr>
-   <h2>Lugares</h2>
-   <p><a target="_blank" href="C:/Users/jorge/Downloads/Workspaces/HTML/Teach-Bible/Jardin.html">Jardín del Edén</a></p><br>
-    <h2><a tarjet="_blank" href="C:/Users/jorge/Downloads/Workspaces/HTML/Teach-Bible/Lista.html">Cronología</a></h2>
-   <hr>
-    <h2>Peticiones de oración</h2>
-    <!--Aquí estuve practicando un formulario-->
-    <form action="/formulario" method="post">
-    <!--Para hacer un formulario debo usar form, action indica a donde se envía el formulario y method la manera en la que se guarda-->
-    <label for="peticion">¿Tienes una petición de oración?</label><br>
-    <textarea name="peticion" id="peticion" placeholder="Con gusto oraré por ti" cols="40" rows="10"></textarea><br><br>
-    <!--textarea indica que es un cuadro de texto para escribir comentarios-->
-    <label for="nombre">¿Cómo te llamas?</label>
-    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre y apellido"><br><br>
-    <label for="nombre">¿De dónde eres?</label>
-    <input type="text" id="lugar" name="lugar" placeholder="Escribe donde vives"><br><br>
-    <!--input es para agregar información en el formulario-->
-    <input type="submit">
-    <!--el input de submit agerga el botón para enviar la información, existen muchos types con varias acciones para rellenar formularios-->
-    <button type="button">Desestrésate</button>
-    <button type="reset">Me equivoqué</button>
-    <button type="submit">Ahora sí estoy listo para enviar</button></form><br><br>
-    <!--A diferencia del input tipo submit, la etiqueta button permite mayor personalización en el texto
-    e incluso se pueden agregar imágenes, existen tres tipos, button, que no sirve para enviar información
-    solo para apretarlo, tipo reset que resetea todo lo ingresado y submit que envia la información escrita.-->
-        <form action="/formulario" method="get">
-            <label for="util">¿Fue útil esta información?</label>
-            <input type="checkbox" id="util" name="util">
-        </form>
+   <section>
+    <article>
+        <h2>Libros de la Biblia</h2>
+        <h3>Pentateuco</h3>
+        <p><a target="_blank" href="C:/Users/jorge/Downloads/Workspaces/HTML/Teach-Bible/Genesis.html">Genesis</a></p>
+         </article>
+        <hr>
+         <article>
+        <h2>Lugares</h2>
+        <p><a target="_blank" href="C:/Users/jorge/Downloads/Workspaces/HTML/Teach-Bible/Jardin.html">Jardín del Edén</a></p><br>
+         <h2><a tarjet="_blank" href="C:/Users/jorge/Downloads/Workspaces/HTML/Teach-Bible/Lista.html">Cronología</a></h2>
+        <hr>
+         </article>
+         <article>
+             <h2>Peticiones de oración</h2>
+             <!--Aquí estuve practicando un formulario-->
+             <form action="/formulario" method="post">
+             <!--Para hacer un formulario debo usar form, action indica a donde se envía el formulario y method la manera en la que se guarda-->
+             <label for="peticion">¿Tienes una petición de oración?</label><br>
+             <textarea name="peticion" id="peticion" placeholder="Con gusto oraré por ti" cols="40" rows="10"></textarea><br><br>
+             <!--textarea indica que es un cuadro de texto para escribir comentarios-->
+             <label for="nombre">¿Cómo te llamas?</label>
+             <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre y apellido"><br><br>
+             <label for="nombre">¿De dónde eres?</label>
+             <input type="text" id="lugar" name="lugar" placeholder="Escribe donde vives"><br><br>
+             <!--input es para agregar información en el formulario-->
+             <input type="submit">
+             <!--el input de submit agerga el botón para enviar la información, existen muchos types con varias acciones para rellenar formularios-->
+             <button type="button">Desestrésate</button>
+             <button type="reset">Me equivoqué</button>
+             <button type="submit">Ahora sí estoy listo para enviar</button></form><br><br>
+             <!--A diferencia del input tipo submit, la etiqueta button permite mayor personalización en el texto
+             e incluso se pueden agregar imágenes, existen tres tipos, button, que no sirve para enviar información
+             solo para apretarlo, tipo reset que resetea todo lo ingresado y submit que envia la información escrita.-->
+                 <form action="/formulario" method="get">
+                     <label for="util">¿Fue útil esta información?</label>
+                     <input type="checkbox" id="util" name="util">
+                 </form>
+         </article>
+   </section>
+    <footer>
+        Cristo es suficiente.
+    </footer>
 </body>
 </html>
